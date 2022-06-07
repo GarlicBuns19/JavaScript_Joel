@@ -72,7 +72,7 @@ people.forEach((f) => {
     `
 });
 
-let marks = 96;
+let marks = if( <= 98)
 // >, >= , <, <=
 // &&, ||, !
 switch(marks) {
