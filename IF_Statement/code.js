@@ -67,7 +67,32 @@ people.forEach((f) => {
     ul.innerHTML = `
     <li>${p1}</li>
     <li>${p2}</li>
-    <li>${p3}</li>
-    <li>${p4}</li>
+    <li>${people[people.length/2]}</li>
+    <li>${people[people.length-1]}</li>
     `
-})
+});
+
+let marks = 96;
+// >, >= , <, <=
+// &&, ||, !
+switch(marks) {
+    case 100:
+        console.log("A+");
+    break;
+    case 98:
+    case 97:
+    case 85:
+        console.log("B+");
+    break;
+    case 75:
+        console.log("Distinction");
+    break;
+    case 50:
+        console.log("Pass");
+    break;
+    case 49:
+        console.log("Fail");
+    break;
+    default:
+        console.log("Out of range");
+}
