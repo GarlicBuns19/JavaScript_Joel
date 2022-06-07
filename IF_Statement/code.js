@@ -58,14 +58,16 @@ p1 = people[2].length;
 console.log(p1);
 
 let p2 = people[2]
+console.log(p2);
 
-function friends(p1){
-    console.log(p1);
-}
+p3 = console.log(people[people.length/2])
+p4 = console.log(people[people.length-1])
 
 people.forEach((f) => {
     ul.innerHTML = `
     <li>${p1}</li>
     <li>${p2}</li>
+    <li>${p3}</li>
+    <li>${p4}</li>
     `
 })
