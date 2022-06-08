@@ -12,6 +12,7 @@
 // console.log(`My fullname is ${firstName} ${lastName}`)
 
 // Eg switch
+// Alternative of a if statement
 let firstName = 'Peter';
 switch(firstName) {
     case 'Peter':
