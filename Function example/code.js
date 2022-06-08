@@ -23,6 +23,11 @@ function addition(numb1, numb2 = 2) {
 btnDisplay.addEventListener('click', display);
 //
 
+function multiplication(num1,num2){
+    return num1 + num2
+}
+
+console.log(multiplication(3,3))
 
 
 
