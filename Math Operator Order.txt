@@ -1,0 +1,5 @@
+Brackets () 1st
+Divide /    2nd
+Multiply *  3rd
+Add +       4th
+Subtract -  5th
