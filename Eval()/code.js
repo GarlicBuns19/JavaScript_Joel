@@ -6,13 +6,15 @@ btnResult.addEventListener('click',()=>{
     try{
         // First operand -> value
         let fstOp =
-        document.getElementById('numb1').value;
+        parseInt(
+        document.getElementById('numb1').value);
         //Operator
         let ops =
         document.getElementById('operator').value;
         // Second operand
         let secOp =
-        document.getElementById('numb2').value;
+        parseInt(
+        document.getElementById('numb2').value);
         //
         switch(ops) {
             case '+':
