@@ -6,19 +6,19 @@ btnResult.addEventListener('click',()=>{
     try{
         // First operand -> value
         let fstOp =
-        parseInt(
-        document.getElementById('numb1').value);
+        // parseInt()
+        document.getElementById('numb1').value;
         //Operator
         let ops =
         document.getElementById('operator').value;
         // Second operand
         let secOp =
-        parseInt(
-        document.getElementById('numb2').value);
+        // parseInt()
+        document.getElementById('numb2').value;
         //
         switch(ops) {
             case '+':
-                total = fstOp + secOp;
+                total = eval(fstOp.concat(ops,secOp));
             break
             case '-':
                 total = fstOp - secOp;
