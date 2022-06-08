@@ -29,6 +29,10 @@ function multiplication(num1,num2){
 
 console.log(multiplication(3,3))
 
+console.log(multiplication(3))
+// This gives u an error above
+
+
 
 
 
