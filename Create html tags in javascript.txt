@@ -1,0 +1,18 @@
+You can create html element as objects in JavaScript using document.createElement() method,
+
+To create and store following html string in JavaScript as an object:
+<p>An absolute URL: <a href="https://www.w3schools.com">W3Schools</a></p>
+
+You will first need to create parent <p> tag as follows,
+
+var ptag = document.createElement('p');
+ptag.innerText = 'An absolute URL:';
+Next you will need to create anchor tag object as follows,
+
+var anchorTag = document.createElement('a');
+anchroTag.href = 'https://www.w3schools.com';
+anchorTag.innerText = 'w3Schools';
+Next append anchor tag as child to <p> tag as follows,
+
+ptag.appendChild(anchorTag);
+This way now you can refer your object ptag and anchorTag latter.
