@@ -35,15 +35,15 @@ console.log(multiplication(3))
 
 // Another example
 let displayName = (firstName) => {
-    document.write('<br>)(firstName)');
+    document.write('(<br>)(firstName)');
 }
 
-displayName('Joel');
-displayName('Your Name');
+// displayName('Joel');
+// displayName('Your Name');
 
-for(let  i = 0; i<5 ; i++) {
-    console.log(i);
-}
+// for(let  i = 0; i<5 ; i++) {
+//     console.log(i);
+// }
 
 /* loops
 for = when you have a collection of data
@@ -52,3 +52,16 @@ do while
 for each
 for in => object
 */
+
+// let cnt = 0;
+// while(cnt < 5) {
+//     console.log(cnt);
+//     cnt++;
+// }
+
+let numbers = [1,2,3,4,5,6,7,8,9,10];
+for (let q=0; q<numbers.length; q++) {
+    if (numbers[q] % 2 == 0) {
+        console.log(numbers[q]);
+    }
+}
