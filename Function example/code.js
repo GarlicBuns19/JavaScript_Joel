@@ -33,6 +33,19 @@ console.log(multiplication(3))
 // This gives u an error above
 
 
+// Another example
+let displayName = (firstName) => {
+    document.write('<br>)(firstName)');
+}
+
+displayName('Joel');
+displayName('Your Name');
+
+for(let  i = 0; i<5 ; i++) {
+    console.log(i);
+}
+
+
 
 
 
