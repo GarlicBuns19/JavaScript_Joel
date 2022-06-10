@@ -91,14 +91,17 @@ for in => object
 //     cnt++;
 // }while(cnt < firstNames.length);
 
-// let firstNames = [
-//     'Mich','Lich','Tick','Sick','Pick'
-// ];
+let wrapper = document.getElementById('students');
+let firstNames = [
+    'Mich','Lich','Tick','Sick','Pick'
+];
 
 // Method
-// firstNames.forEach((item) => {
-//     console.log(item);
-// });
+firstNames.forEach((item) => {
+    wrapper.innerHTML +=
+    `<li> ${item} </li>`
+    console.log(item);
+});
 
-const numbers = [1,2,3,4,5,6,7]
-numbers.forEach()
+// const numbers = [1,2,3,4,5,6,7]
+// numbers.forEach()
