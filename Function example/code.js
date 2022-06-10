@@ -46,8 +46,8 @@ for(let  i = 0; i<5 ; i++) {
 }
 
 /* loops
-for
-whille
+for = when you have a collection of data
+while = dont know how much loops you want to do
 do while
 for each
 for in => object
