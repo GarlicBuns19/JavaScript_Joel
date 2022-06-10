@@ -45,7 +45,8 @@ in case you haven't assigned a value.
 // }
 
 /* loops
-for = when you have a collection of data , let ,varables ,condition, intrement numbers,even number use if statement
+for = when you have a collection of data , let ,varables ,condition, intrement numbers,even number use if statement, ; use it
+{ } for block of code
 while = dont know how much loops you want to do
 do while
 for each
@@ -58,7 +59,7 @@ for in => object
 //     cnt++;
 // }
 
-let numbers = [1,2,3,4,5,6,7]
+let numbers = [1,2,3,4,5,6,7];
 for (let i=0; i<numbers.length; i++) {
     // if (numbers[i] % 2 == 0) {
     //     console.log(numbers[i]);
