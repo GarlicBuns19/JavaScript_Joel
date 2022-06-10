@@ -9,7 +9,7 @@ result.addEventListener('click', () => {
 let age = document.querySelector('#age').value
     switch (true) {
         case (age < 10):
-            document.getElementById('agePar').innerText = ('You are eating');
+            document.getElementById('agePar').innerText = 'You are eating';
         break
         case (age < 20):
             document.getElementById('agePar').innerText = ('You are Thinking');
