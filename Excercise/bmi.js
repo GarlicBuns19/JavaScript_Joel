@@ -4,7 +4,7 @@ document.body.append(h1);
 
 
 
-let result = document.getElementById('ageResult');
+let result = document.getElementById('Result');
 result.addEventListener('click', () => {
 let age = document.querySelector('#age').value
     switch (true) {
