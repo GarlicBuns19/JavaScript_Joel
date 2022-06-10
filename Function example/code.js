@@ -49,7 +49,7 @@ for = when you have a collection of data , let ,varables ,condition, intrement n
 { } for block of code
 while = dont know how much loops you want to do
 do while
-for each
+for each is a method
 for in => object
 */
 
@@ -59,14 +59,46 @@ for in => object
 //     cnt++;
 // }
 
-let numbers = [1,2,3,4,5,6,7];
-for (let i=0; i<numbers.length; i++) {
+// let numbers = [1,2,3,4,5,6,7];
+// for (let i=0; i<numbers.length; i++) {
     // if (numbers[i] % 2 == 0) {
     //     console.log(numbers[i]);
     // }
-    console.log(numbers[i]);
-    if(numbers[i] == 6) {
-        break;
-    }
-}
+    // console.log(numbers[i]);
+    // if(numbers[i] == 6) {
+    //     break;
+    // }
+
+//     if(numbers[i] == 6) {
+//         continue;
+//     }
+//     console.log(numbers[i]);
+// }
 // break, continue
+
+// let firstNames = [
+//     'Mich','Lich','Tick','Sick'
+// ];
+// while checks condition
+// do checks condition after
+
+// let cnt = 0
+// counter is cnt
+
+// { } is a block
+// do{
+//     console.log(firstNames[cnt]);
+//     cnt++;
+// }while(cnt < firstNames.length);
+
+// let firstNames = [
+//     'Mich','Lich','Tick','Sick','Pick'
+// ];
+
+// Method
+// firstNames.forEach((item) => {
+//     console.log(item);
+// });
+
+const numbers = [1,2,3,4,5,6,7]
+numbers.forEach()
