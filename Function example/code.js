@@ -45,9 +45,10 @@ for(let  i = 0; i<5 ; i++) {
     console.log(i);
 }
 
-
-
-
-
-
-
+/* loops
+for
+whille
+do while
+for each
+for in => object
+*/
