@@ -1,5 +1,8 @@
 .list-group{
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: row;
     list-style: none;
+}
+.listHelp{
+    padding: 0 10px 0 10px;
 }

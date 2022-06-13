@@ -10,15 +10,19 @@ let wrapper = ''
 async function displayData() {
     let data = await getData();
     data.results.forEach(item => {
-        wrapper += `
+        wrapper = `
                 <div class="card" style="width: 18rem;">
                     <img src="${item['picture'].large}" style="border-radius: 50%;" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">${item['name'].first} ${item['name'].last}</h5>
                         <p id="par"></p>
-                        <ul class="list-group d-inline ">
-                            <li class='list'>
-                                <i class="bi bi-calendar" onmouseover="para()" onmouseout="para2()"></i>
+                        <p id="par1"></p>
+                        <ul class="list-group">
+                            <li class="listHelp">
+                                <i class="bi bi-calendar" onmouseover="para()" onmouseout="para1()"></i>
+                            </li>
+                            <li class="listHelp">
+                                <i class="bi bi-telephone" onmouseover="para2()" onmouseout="para3()"></i>
                             </li>
                         </ul>
                     </div>
@@ -31,12 +35,21 @@ async function displayData() {
 //
 displayData();
 
-function para(){
+ para = () => {
     let par = document.getElementById('par')
     par.innerHTML = '18/06/1936'
 }
-function para2(){
+function para1(){
     let par = document.getElementById('par')
+    par.innerHTML = ''
+}
+
+ para2 = () => {
+    let par = document.getElementById('par1')
+    par.innerHTML = '123456789'
+}
+function para3(){
+    let par = document.getElementById('par1')
     par.innerHTML = ''
 }
 
