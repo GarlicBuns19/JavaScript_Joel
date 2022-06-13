@@ -2,6 +2,7 @@ async function getData() {
     let collections =
     await fetch('https://randomuser.me/api?results=3');
     let data = collections.json();
+    // JSON javascript object notation
     return data;
 }
 // Display
