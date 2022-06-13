@@ -14,17 +14,18 @@ async function displayData() {
                 <div class="card" style="width: 18rem;">
                     <img src="${item['picture'].large}" style="border-radius: 50%;" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">${item['name'].first} ${item['name'].last}</h5>
-                        <p id="par"></p>
-                        <p id="par1"></p>
+                        <p id="text">My name is</p>
+                        <h5 class="card-title" id="content">${item['name'].first} ${item['name'].last}</h5>
+
                         <ul class="list-group">
                             <li class="listHelp">
-                                <i class="bi bi-calendar icon" onmouseover="para()" onmouseout="para1()"></i>
+                                <i class="bi bi-calendar icon" onmouseenter="mouseover('${item['dob'].date}')"></i>
                             </li>
                             <li class="listHelp">
-                                <i class="bi bi-telephone icon"  onmouseover="para2()" onmouseout="para3()"></i>
+                                <i class="bi bi-telephone icon" onmouseenter="mouseover('${item['phone']}')"></i>
                             </li>
                         </ul>
+                        
                     </div>
                 </div>
         `
@@ -35,21 +36,26 @@ async function displayData() {
 //
 displayData();
 
- para = () => {
-    let par = document.getElementById('par')
-    par.innerHTML = '18/06/1936'
-}
-function para1(){
-    let par = document.getElementById('par')
-    par.innerHTML = ''
+function mouseover(){
+    document.querySelector('#text').innerHTML = text;
+    document.querySelector('#content').innerHTML = content;
 }
 
- para2 = () => {
-    let par = document.getElementById('par1')
-    par.innerHTML = '123456789'
-}
-function para3(){
-    let par = document.getElementById('par1')
-    par.innerHTML = ''
-}
+//  para = () => {
+//     let par = document.getElementById('par')
+//     par.innerHTML = '18/06/1936'
+// }
+// function para1(){
+//     let par = document.getElementById('par')
+//     par.innerHTML = ''
+// }
+
+//  para2 = () => {
+//     let par = document.getElementById('par1')
+//     par.innerHTML = '123456789'
+// }
+// function para3(){
+//     let par = document.getElementById('par1')
+//     par.innerHTML = ''
+// }
 
