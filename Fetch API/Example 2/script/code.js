@@ -8,6 +8,7 @@ async and await
 */
 
 // Create a function
+// Example 1
 async function display() {
     let res = await fetch('../images/acorn.png');
     if(res.status == 200) {
@@ -25,7 +26,9 @@ async function display() {
     dadAndMe.src = URL.createObjectURL(image);
 }
 
-// Calling a function
+/* Calling a function
+Can be put at top or bottom
+*/
 display().
 catch(e => {
     console.error('PLease try again later');
