@@ -12,11 +12,15 @@ async function displayData() {
     data.results.forEach(item => {
         wrapper += `
                 <div class="card" style="width: 18rem;">
-                    <img src="${item['picture'].large}" class="card-img-top" alt="...">
+                    <img src="${item['picture'].large}" style="border-radius: 50%;" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">${item['name'].first} ${item['name'].last}</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p id="par"></p>
+                        <ul class="list-group d-inline ">
+                            <li class='list'>
+                                <i class="bi bi-calendar" onmouseover="para()" onmouseout="para2()"></i>
+                            </li>
+                        </ul>
                     </div>
                 </div>
         `
@@ -24,7 +28,15 @@ async function displayData() {
     let row = document.querySelector('.row');
         row.innerHTML = wrapper;
 }
-
 //
 displayData();
+
+function para(){
+    let par = document.getElementById('par')
+    par.innerHTML = '18/06/1936'
+}
+function para2(){
+    let par = document.getElementById('par')
+    par.innerHTML = ''
+}
 
