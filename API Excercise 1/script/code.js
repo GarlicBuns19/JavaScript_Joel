@@ -10,7 +10,7 @@ let wrapper = ''
 async function displayData() {
     let data = await getData();
     data.results.forEach(item => {
-        wrapper = `
+        wrapper += `
                 <div class="card" style="width: 18rem;">
                     <img src="${item['picture'].large}" style="border-radius: 50%;" class="card-img-top" alt="...">
                     <div class="card-body">
