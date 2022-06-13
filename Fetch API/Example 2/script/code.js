@@ -18,6 +18,13 @@ async function display() {
     }
 }
 
+//Example 2
+async function display() {
+    let res = await fetch('../images/acorn.png');
+    let image = await res.blob();
+    dadAndMe.src = URL.createObjectURL(image);
+}
+
 // Calling a function
 display().
 catch(e => {
