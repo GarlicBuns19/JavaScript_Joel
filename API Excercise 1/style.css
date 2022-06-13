@@ -4,5 +4,8 @@
     list-style: none;
 }
 .listHelp{
-    padding: 0 10px 0 10px;
+    padding: 30px 10px 0 10px;
+}
+li .icon{
+    font-size: 2em;
 }

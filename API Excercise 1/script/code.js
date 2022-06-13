@@ -19,10 +19,10 @@ async function displayData() {
                         <p id="par1"></p>
                         <ul class="list-group">
                             <li class="listHelp">
-                                <i class="bi bi-calendar" onmouseover="para()" onmouseout="para1()"></i>
+                                <i class="bi bi-calendar icon" onmouseover="para()" onmouseout="para1()"></i>
                             </li>
                             <li class="listHelp">
-                                <i class="bi bi-telephone" onmouseover="para2()" onmouseout="para3()"></i>
+                                <i class="bi bi-telephone icon"  onmouseover="para2()" onmouseout="para3()"></i>
                             </li>
                         </ul>
                     </div>
