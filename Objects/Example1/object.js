@@ -64,22 +64,24 @@
 // let w2 = Work('Heater',80 * 300);
 // w2.display();
 
-Work = (name,hrs,rate) => {
-    return{
-        name: name,
-        salary: () => {
-            return hrs * rate
-        },
-        display: () => {
-            document.write(`<br>Name: ${name}<br>
-            Salary: ${hrs}<br>`)
-        }
-    }
-}
-let w1 = Work('Peter',40,500);
-let w2 = Work('Heater',80,300);
+// Work = (name,hrs,rate) => {
+//     return{
+//         name: name,
+//         salary: () => {
+//             return hrs * rate
+//         },
+//         display: () => {
+//             document.write(`<br>Name: ${name}<br>
+//             Salary: ${hrs}<br>`)
+//         }
+//     }
+// }
+// let w1 = Work('Peter',40,500);
+// let w2 = Work('Heater',80,300);
 
-console.log(`Name: ${'Peter'}
-Salary: ${w1.salary()}`)
-console.log(`Name: ${'Heater'}
-Salary: ${w2.salary()}`)
+// console.log(`Name: ${'Peter'}
+// Salary: ${w1.salary()}`)
+// console.log(`Name: ${'Heater'}
+// Salary: ${w2.salary()}`)
+
+// Constructor Function
