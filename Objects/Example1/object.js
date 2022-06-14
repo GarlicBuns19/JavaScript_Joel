@@ -117,7 +117,24 @@ firstName[0] = 'M'
 firstName = 'Moel'
 console.log(firstName)
 
-let names = ['Joel','Hanny','Kagiso']
-console.log(names)
-names[0]='Godwin'
-console.log(names)
+// let names = ['Joel','Hanny','Kagiso']
+// console.log(names)
+// names[0]='Godwin'
+// console.log(names)
+// let person = {
+//     name: 'Godwin',
+//     surname: 'Dzvaspatra',
+//     jobTitle: 'Head of Cirriculm'
+// }
+
+// console.log(person);
+// let employee = person;
+// employee['salary'] = 39000;
+// console.log(employee);
+// console.log(person);
+
+// let employee = [...person]
+// console.log(person);
+// employee ['salary'] = 40000
+// console.log(employee)
+
