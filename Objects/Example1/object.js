@@ -21,15 +21,26 @@ if(person.hasOwnProperty('Salary')){
 }
 
 // Factory Function
+// Objects is a black box
 function Employee(name,surname,company) {
     return{
         name: 'name',
         surname: 'surname',
         company: 'company',
         display: () => {
-            document.write(`Name: ${name}
-            Surname: ${surname}
-            Company Name: ${company}`)
+            document.write(`<br> Name: ${name}<br>
+            Surname: ${surname}<br>
+            Company Name: ${company}<br>`)
         }
     }
 }
+let emp1 = Employee('Joel','Mukanya','Life Choices');
+
+let emp2 = Employee('Henk','Peter','Mr D');
+
+let emp3 = Employee('Amanda','Gudiwa','Eat Big');
+
+// Display all info
+emp1.display();
+emp2.display();
+emp3.display();
