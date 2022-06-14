@@ -27,4 +27,17 @@ console.log(p2.count);
 
 document.write(`<br>Name: ${person1.name}<br>
 Surname: ${person1.surname}<br>
-Age: ${person1.count}`)
+Age: ${person1.count}`);
+
+// Array, object
+
+/*
+Create an array with the following elements:
+9, 8, 6, 'Raees', true, 'Javascript'
+Display only numbers
+*/
+let arr = [9,8,6,'Raees',true,'Javascript'];
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr.filter(value => typeof value === 'number'))
+
