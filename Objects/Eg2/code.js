@@ -41,3 +41,7 @@ console.log(arr[0]);
 console.log(arr[1]);
 console.log(arr.filter(value => typeof value === 'number'))
 
+const avengers = ['thor', 'captain america', 'hulk'];
+avengers.forEach((item, index)=>{
+	console.log(index, item)
+})

@@ -25,7 +25,6 @@ async function displayData() {
                                 <i class="bi bi-telephone icon" onmouseenter="mouseover('${item['phone']}')"></i>
                             </li>
                         </ul>
-                        
                     </div>
                 </div>
         `
