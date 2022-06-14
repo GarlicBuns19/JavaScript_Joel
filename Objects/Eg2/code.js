@@ -24,6 +24,7 @@ let p2 = JSON.parse(JSON.stringify(person1));
 console.log(p2.name);
 console.log(p2.surname);
 console.log(p2.count);
-document.write(p2.name);
-document.write(p2.surname);
-document.write(p2.count);
+
+document.write(`<br>Name: ${person1.name}<br>
+Surname: ${person1.surname}<br>
+Age: ${person1.count}`)
