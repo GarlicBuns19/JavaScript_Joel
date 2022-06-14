@@ -21,6 +21,15 @@ if(person.hasOwnProperty('Salary')){
 }
 
 // Factory Function
-Employee = () => {
-    
+function Employee(name,surname,company) {
+    return{
+        name: 'name',
+        surname: 'surname',
+        company: 'company',
+        display: () => {
+            document.write(`Name: ${name}
+            Surname: ${surname}
+            Company Name: ${company}`)
+        }
+    }
 }
