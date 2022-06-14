@@ -85,3 +85,11 @@
 // Salary: ${w2.salary()}`)
 
 // Constructor Function
+function Shop() {
+    this.name= 'DJ',
+    this.address= '27 Strand Street CRD'
+}
+// Create Object
+const shop1= new Shop();
+console.log(`Nmae: ${shop1.name}
+Address ${shop1.address}`)
