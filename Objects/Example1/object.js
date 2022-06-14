@@ -97,6 +97,7 @@
 // Dynamtic values of
 // The data does not change in ram
 // Creating boxes in ram,not changing the value,but use same umber,IMMUTABLE
+// Primitive values is IMMUTABLE,not changing on memory
 let data  = 32;
 console.log(data);
 console.log(typeof data);
