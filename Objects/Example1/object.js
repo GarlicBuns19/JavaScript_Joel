@@ -109,3 +109,15 @@ console.log(typeof data);
 data  = true;
 console.log(data);
 console.log(typeof data);
+
+let firstName = 'Joel'
+// Bottom does not work
+firstName[0] = 'M'
+// Bottom works
+firstName = 'Moel'
+console.log(firstName)
+
+let names = ['Joel','Hanny','Kagiso']
+console.log(names)
+names[0]='Godwin'
+console.log(names)
