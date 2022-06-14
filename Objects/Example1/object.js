@@ -85,11 +85,25 @@
 // Salary: ${w2.salary()}`)
 
 // Constructor Function
-function Shop() {
-    this.name= 'DJ',
-    this.address= '27 Strand Street CRD'
-}
-// Create Object
-const shop1= new Shop();
-console.log(`Nmae: ${shop1.name}
-Address ${shop1.address}`)
+// function Shop() {
+//     this.name= 'DJ',
+//     this.address= '27 Strand Street CRD'
+// }
+// // Create Object
+// const shop1= new Shop();
+// console.log(`Nmae: ${shop1.name}
+// Address ${shop1.address}`)
+
+// Dynamtic values of
+// The data does not change in ram
+let data  = 32;
+console.log(data);
+console.log(typeof data);
+
+data  = 'Joel';
+console.log(data);
+console.log(typeof data);
+
+data  = true;
+console.log(data);
+console.log(typeof data);
