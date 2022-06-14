@@ -1,0 +1,4 @@
+// object basics
+const person = {
+    
+}
