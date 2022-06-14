@@ -117,10 +117,10 @@ firstName[0] = 'M'
 firstName = 'Moel'
 console.log(firstName)
 
-// let names = ['Joel','Hanny','Kagiso']
-// console.log(names)
-// names[0]='Godwin'
-// console.log(names)
+    // let names = ['Joel','Hanny','Kagiso']
+    // console.log(names)
+    // names[0]='Godwin'
+    // console.log(names)
 // let person = {
 //     name: 'Godwin',
 //     surname: 'Dzvaspatra',
@@ -138,3 +138,17 @@ console.log(firstName)
 // employee ['salary'] = 40000
 // console.log(employee)
 
+// Object assign()
+// console.log(person);
+// let employee = Object.assign({},person);
+// console.log(employee);
+
+// Enumerating Object
+let person = {
+    name: 'Godwin',
+    surname: 'Dzvaspatra',
+    jobTitle: 'Head of Cirriculm'
+}
+for(let key in person) {
+    console.log(`${key}: ${person[key]}`)
+}
