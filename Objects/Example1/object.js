@@ -19,3 +19,8 @@ if(person.hasOwnProperty('Salary')){
 }else{
     console.warn('Key was not found');
 }
+
+// Factory Function
+Employee = () => {
+    
+}
