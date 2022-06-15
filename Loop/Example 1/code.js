@@ -12,7 +12,7 @@ for(w = 0;w < arr.length; w++){
 }
 
 // 3
-// const arr2 = [1,3,5,6,7,9,11];
+const arr2 = [1,3,5,6,7,9,11];
 function deleteAnElement(n) {
     return console.log(n.splice(0,2))
 }
