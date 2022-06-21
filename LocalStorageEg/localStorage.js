@@ -35,7 +35,9 @@ function addData() {
     localStorage.setItem('records',JSON.stringify(lists));
 }
 document.querySelector('#addRecord').addEventListener('click', addData);
+
 // Displaying data
+// Faster way to display a function
 (function loadData() {
     console.table(lists);
 })();
