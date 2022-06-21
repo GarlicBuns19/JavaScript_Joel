@@ -1,6 +1,4 @@
 const nameN = document.getElementById('name');
-const rgb = document.getElementById('rgb');
-
 
 let arr = JSON.parse(localStorage.getItem('records')) ?
 JSON.parse(localStorage.getItem('records')) : [
@@ -16,6 +14,12 @@ function addData(){
     })
     localStorage.setItem('records',JSON.stringify(arr));
 }
+document.querySelector('#add').addEventListener('click',()=>{
+    const rgb = document.getElementById('rgb').value
+    let color = document.querySelector('.container')
+    color.style = `background-color: ${rgb}`;
+})
+
 const btnAdd = document.getElementById('add');
 btnAdd.addEventListener('click', addData);
 
