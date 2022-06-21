@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://www.polar.com/blog/wp-content/uploads/2020/01/8-at-home-workouts-on-demand-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-attachment: fixed;
+    color: white;
+}
+.container{
+    height:80vh;
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    opacity: 90%;
+    border-radius: 100px;
+}

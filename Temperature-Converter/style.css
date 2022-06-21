@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://www.techicy.com/wp-content/uploads/2021/09/Fire-Vs-Ice.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 75vh;
+    color: white;
+}
+.tempBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.tempBody .inputAlign{
+    display: flex;
+    padding: 15px;
+}
+.tempBody input{
+    font-size: 24px;
+    border-radius: 20px;
+}
+.tempBody .inputAlign button{
+    margin-left: 10px;
+    border-radius: 15px;
+}
+.tempBody>p{
+    margin: 1% 40% 0  ;
+    font-size: 1.2em;
+}
+.tempBody .output{
+    margin-right: 180px;
+    font-size: 1.2em;
+}
+.tempBody .output1{
+    margin-right: 204px;
+    font-size: 1.2em;
+}
